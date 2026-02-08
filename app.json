@@ -1,0 +1,40 @@
+{
+  "name": "truth-dare-bot",
+  "description": "A fun Telegram Truth & Dare bot with Family, Flirty, and Romantic modes, XP/Level system, leaderboard and broadcasts.",
+  "repository": "https://github.com/YourUsername/truth-dare-bot",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg",
+  "keywords": ["telegram", "bot", "truth", "dare", "game", "fun"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "Your MongoDB connection URI",
+      "required": true
+    },
+    "WEBHOOK_URL": {
+      "description": "Heroku app URL for webhook (e.g. https://your-app.herokuapp.com/)",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID (admin/owner of the bot)",
+      "required": true
+    },
+    "UPDATE_CHANNEL": {
+      "description": "Telegram channel link where bot updates are posted",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  }
+}
