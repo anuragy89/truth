@@ -1,0 +1,11 @@
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+MONGO_URI = os.getenv("MONGO_URI")
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+OWNER_ID = int(os.getenv("OWNER_ID"))
+UPDATE_CHANNEL = os.getenv("UPDATE_CHANNEL")
+COOLDOWN_SECONDS = 20
+TRUTH_XP = 5
+DARE_XP = 10
+DAILY_CHALLENGE_XP = 20
