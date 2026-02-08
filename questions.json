@@ -1,0 +1,8 @@
+[
+  {"type":"truth","text":"Who always makes the group laugh the most?","mode":"family","active":true},
+  {"type":"dare","text":"Send your favorite emoji 🌟","mode":"family","active":true},
+  {"type":"truth","text":"Who in this group would make a cute movie couple?","mode":"flirty","active":true},
+  {"type":"dare","text":"Send a 💖 emoji and tag someone fun","mode":"flirty","active":true},
+  {"type":"truth","text":"Who has the sweetest personality here?","mode":"romantic","active":true},
+  {"type":"dare","text":"Write a cute compliment to someone 🌸","mode":"romantic","active":true}
+]
